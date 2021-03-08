@@ -14,7 +14,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Task2/Task2.unity
     guid: 5435020a037e14aa8b14107f404f50fc
-  - enabled: 1
+  - enabled: 0
     path: Assets/00-Lesson3/Lesson3.unity
     guid: 7204457ece15d4322bb1afccc5997fd8
+  - enabled: 1
+    path: Assets/Project 2/Butterfly.unity
+    guid: f847ae296b93947abb447418408ffcdb
   m_configObjects: {}
