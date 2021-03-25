@@ -3,7 +3,87 @@ guid: a4fa33bbf9dee437797125dc2fcfb17b
 ModelImporter:
   serializedVersion: 19301
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Aletas
+    second: {fileID: 2100000, guid: 9ff84bec9e0774e3daa0803cf422abce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Blue_light
+    second: {fileID: 2100000, guid: f8bd079f5f4644fd4b2b856ee6c25380, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Center_screen
+    second: {fileID: 2100000, guid: a71004c19391249b4bdb4a0db2420cd8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Door
+    second: {fileID: 2100000, guid: cabbd224a01574a899252219f0259836, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Floor
+    second: {fileID: 2100000, guid: f6729d47b9c4f4c9880a81dca99d9b79, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glass
+    second: {fileID: 2100000, guid: eb52406bc9f9741318222d9b76a6dbda, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Inside
+    second: {fileID: 2100000, guid: 803437d10b84744488d7f3e11dc4e890, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Land_door
+    second: {fileID: 2100000, guid: eba7584c413784f16873daf592044d9d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Leather
+    second: {fileID: 2100000, guid: dda6bdfeacfb84cad981e0c3372b1a7c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal
+    second: {fileID: 2100000, guid: 28c00270367da496fb59c81cdc75131e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Motor
+    second: {fileID: 2100000, guid: 5e6072ebdfb404250b7878b4d91179df, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Motor_metal
+    second: {fileID: 2100000, guid: 112e81ee04c6d4e949a6611f6f1fdf1c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Neumatic
+    second: {fileID: 2100000, guid: cd9141a0d044a41dd8ddeb6e51a83950, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plastic
+    second: {fileID: 2100000, guid: 4fa2ab6b0eb264c068d636fbde662d56, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shiny_black
+    second: {fileID: 2100000, guid: ae3ed67524c7347dba21dad6e140875b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wings
+    second: {fileID: 2100000, guid: 0c22bc570b2e44f45a080d8de0a5b6f2, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
