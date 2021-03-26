@@ -8,7 +8,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/00-Lesson3/Lesson3.unity
     guid: 7204457ece15d4322bb1afccc5997fd8
-  - enabled: 1
+  - enabled: 0
     path: Assets/Project 2/Butterfly.unity
     guid: f847ae296b93947abb447418408ffcdb
+  - enabled: 1
+    path: Assets/Project 3/Spaceships.unity
+    guid: d6a9b803423de490c94bfd50a625a734
   m_configObjects: {}
