@@ -1,11 +1,11 @@
 fileFormatVersion: 2
-guid: 8865e0e454d8d46569095e0bfa8ae2d0
+guid: 0700fdfd590f24bf3b00e754feba9988
 ModelImporter:
   serializedVersion: 19301
   internalIDToNameTable:
   - first:
       74: -203655887218126122
-    second: Jump
+    second: Unarmed Walk Back
   externalObjects: {}
   materials:
     materialImportMode: 1
@@ -35,18 +35,18 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Jump
+      name: Unarmed Walk Back
       takeName: mixamo.com
       internalID: 0
-      firstFrame: 32
-      lastFrame: 33
+      firstFrame: 0
+      lastFrame: 39
       wrapMode: 0
       orientationOffsetY: 0
-      level: -0.35
+      level: 0
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
