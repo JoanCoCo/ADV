@@ -1,11 +1,11 @@
 fileFormatVersion: 2
-guid: ab9b81698db274c0f86597fd14eeb44e
+guid: 7f5f50edec13e4f42b75a53aa3f011ff
 ModelImporter:
   serializedVersion: 19301
   internalIDToNameTable:
   - first:
       74: -203655887218126122
-    second: Looking Around
+    second: Surprised
   externalObjects: {}
   materials:
     materialImportMode: 1
@@ -35,20 +35,20 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Looking Around
+      name: Surprised
       takeName: mixamo.com
       internalID: 0
       firstFrame: 0
-      lastFrame: 194
+      lastFrame: 52
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 1
+      loopTime: 0
       loopBlend: 0
-      loopBlendOrientation: 0
+      loopBlendOrientation: 1
       loopBlendPositionY: 0
       loopBlendPositionXZ: 0
       keepOriginalOrientation: 0
@@ -870,7 +870,7 @@ ModelImporter:
     hasTranslationDoF: 0
     hasExtraRoot: 1
     skeletonHasParents: 1
-  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 5fcd29e5b11db42058d358cb44943c47,
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 0801af14fac394a44ad153457f731d5a,
     type: 3}
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 3
