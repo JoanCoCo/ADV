@@ -8,14 +8,14 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: SVGMat.004
-  m_Shader: {fileID: 4800000, guid: 650dd9526735d5b46b79224bc6e94025, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: 58647bedf6a9f4ecdb260898a82a4509,
+    type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 2050
-  stringTagMap:
-    RenderType: Opaque
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
@@ -49,6 +49,18 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - Vector1_13C35AA3: 1
+    - Vector1_3624D707: 1
+    - Vector1_58412A44: 10
+    - Vector1_5D14C902: 1
+    - Vector1_67AA5BD3: 0.9
+    - Vector1_87D06797: 1
+    - Vector1_A77DD429: 1
+    - Vector1_A8A11D34: 1
+    - Vector1_B324E2F6: 1
+    - Vector1_B69C4346: 1
+    - Vector1_D85F3ADA: 0.005
+    - Vector1_E8DB44B0: 1
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
@@ -76,7 +88,9 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 0.5637133, g: 0.31283376, b: 0.6981132, a: 1}
+    - Color_1FFC8A34: {r: 0, g: 0, b: 0, a: 0}
+    - Color_E6B4A55D: {r: 1, g: 1, b: 1, a: 0}
+    - _BaseColor: {r: 0.9339623, g: 0.9339623, b: 0.9339623, a: 1}
     - _Color: {r: 0.44325083, g: 0.44325083, b: 0.44325083, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
