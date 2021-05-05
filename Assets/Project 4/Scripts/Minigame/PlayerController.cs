@@ -12,6 +12,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float jump = 2.0f;
     private float xInput = 0.0f;
     private float yInput = 0.0f;
+    private enum State { On, Off };
+    [SerializeField] private State state = State.Off;
 
     private void Start()
     {
@@ -20,26 +22,32 @@ public class PlayerController : MonoBehaviour
     }
 
     private void Update()
-    {   
-
-        controller.Move(Vector3.down * gravity * Time.deltaTime);
-        yInput = Input.GetAxis("Vertical");
-        xInput = Input.GetAxis("Horizontal");
-
-        if (Mathf.Approximately(yInput, 0.0f))
+    {
+        if (state == State.On)
         {
-            animator.SetFloat("XDir", xInput);
-        }
-        else
-        {
-            transform.Rotate(Vector3.up, 90.0f * Time.deltaTime * xInput);
-            float xdir = animator.GetFloat("XDir");
-            if (Mathf.Abs(xdir) > 0.0f)
+            controller.Move(Vector3.down * gravity * Time.deltaTime);
+            yInput = Input.GetAxis("Vertical");
+            xInput = Input.GetAxis("Horizontal");
+
+            if (Mathf.Approximately(yInput, 0.0f))
             {
-                animator.SetFloat("XDir", xdir - Mathf.Sign(xdir) * 0.05f);
+                animator.SetFloat("XDir", xInput);
             }
-        }
+            else
+            {
+                transform.Rotate(Vector3.up, 90.0f * Time.deltaTime * xInput);
+                float xdir = animator.GetFloat("XDir");
+                if (Mathf.Abs(xdir) > 0.0f)
+                {
+                    animator.SetFloat("XDir", xdir - Mathf.Sign(xdir) * 0.05f);
+                }
+            }
 
-        animator.SetFloat("YDir", yInput);
+            animator.SetFloat("YDir", yInput);
+        } else
+        {
+            animator.SetFloat("YDir", 0);
+            animator.SetFloat("XDir", 0);
+        }
     }
 }

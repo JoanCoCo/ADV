@@ -20,20 +20,26 @@ public class EnemyNavAI : MonoBehaviour
     {
         agent = GetComponent<NavMeshAgent>();
         animator = GetComponent<Animator>();
-        agent.destination = destinationMark.position;
+        //agent.destination = destinationMark.position;
     }
 
     private void Update()
     {
-        if (state == State.On && director.state != PlayState.Playing)
+        if (state == State.On)
         {
-            if (agent.isStopped) agent.isStopped = false;
-            if (agent.isOnOffMeshLink) animator.SetTrigger("Jump");
+            agent.destination = destinationMark.position;
+            Debug.Log("Running!!");
+            if (agent.isStopped) {
+                agent.isStopped = false;
+            }
             animator.SetFloat("XDir", transform.InverseTransformDirection(agent.velocity).x);
             animator.SetFloat("YDir", transform.InverseTransformDirection(agent.velocity).z);
         } else
         {
+            Debug.Log("Not running.");
             if (!agent.isStopped) agent.isStopped = true;
+            animator.SetFloat("XDir", 0);
+            animator.SetFloat("YDir", 0);
         }
     }
 }

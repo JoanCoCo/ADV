@@ -9,17 +9,24 @@ public class FinalCutsceneTrigger : MonoBehaviour
     [SerializeField] private string playerTag = "Player";
     [SerializeField] private PlayableDirector badCutscene;
     [SerializeField] private PlayableDirector goodCutscene;
+    private bool wasTriggered = false;
 
     private void OnTriggerEnter(Collider other)
     {
         Debug.Log("Triggered by " + other.gameObject.tag);
 
-        if (other.gameObject.CompareTag(enemyTag))
+        if (!wasTriggered)
         {
-            badCutscene.Play();
-        } else if(other.gameObject.CompareTag(playerTag))
-        {
-            goodCutscene.Play();
+            if (other.gameObject.CompareTag(enemyTag))
+            {
+                badCutscene.Play();
+                wasTriggered = true;
+            }
+            else if (other.gameObject.CompareTag(playerTag))
+            {
+                goodCutscene.Play();
+                wasTriggered = true;
+            }
         }
     }
 }
