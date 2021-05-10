@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -3584,7 +3584,7 @@ Light:
   m_BounceIntensity: 8
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: -1.5764675e-38, z: 4.579e-41, w: 0.000000011874363}
+  m_BoundingSphereOverride: {x: 3e-45, y: -7.1671776e+28, z: 3e-45, w: -5.8712986e+29}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 10
   m_ShadowAngle: 0
@@ -11519,8 +11519,10 @@ PlayableDirector:
     value: {fileID: 309314690}
   - key: {fileID: -1747989413836993231, guid: 580fff2f08f76471a933e484ea06d706, type: 2}
     value: {fileID: 0}
-  - key: {fileID: 6846447917601295212, guid: 580fff2f08f76471a933e484ea06d706, type: 2}
-    value: {fileID: 3183025602446422509}
+  - key: {fileID: 6129447606970111891, guid: 580fff2f08f76471a933e484ea06d706, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: -872537601423435309, guid: 580fff2f08f76471a933e484ea06d706, type: 2}
+    value: {fileID: 0}
   m_ExposedReferences:
     m_References:
     - 2a83ba37e461f4cfcbd37d8deeda6148: {fileID: 810650245}
