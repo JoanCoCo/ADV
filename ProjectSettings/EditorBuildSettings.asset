@@ -20,7 +20,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/00-Lesson10/Scenes/Lesson10.unity
     guid: d8722e6a4043f4f80859b03a551843a5
-  - enabled: 1
+  - enabled: 0
     path: Assets/00-Lesson10/Scenes/Lesson 10 Nav.unity
     guid: 84b02d3fe09af411c9abcae6b0abb7f0
+  - enabled: 1
+    path: Assets/Project 4/Scenes/Porject 4.unity
+    guid: 5b295d2e5d3e74df09f3af6500c09954
   m_configObjects: {}
