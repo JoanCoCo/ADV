@@ -26,7 +26,7 @@ public class EnemyNavAI : MonoBehaviour
     {
         if (state == State.On)
         {
-            agent.destination = destinationMark.position;
+            //agent.destination = destinationMark.position;
             Debug.Log("Running!!");
             if (agent.isStopped) {
                 agent.isStopped = false;
@@ -45,5 +45,6 @@ public class EnemyNavAI : MonoBehaviour
     public void StartMiniGame()
     {
         state = State.On;
+        agent.destination = destinationMark.position;
     }
 }
