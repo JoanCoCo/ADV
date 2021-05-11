@@ -18,7 +18,7 @@ AnimatorStateMachine:
   m_StateMachineTransitions: {}
   m_StateMachineBehaviours: []
   m_AnyStatePosition: {x: 350, y: 210, z: 0}
-  m_EntryPosition: {x: 130, y: 360, z: 0}
+  m_EntryPosition: {x: 130, y: 370, z: 0}
   m_ExitPosition: {x: 350, y: 250, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
   m_DefaultState: {fileID: 7023040629012290385}
@@ -81,7 +81,7 @@ BlendTree:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Blend Tree
+  m_Name: locomotion Tree
   m_Childs:
   - serializedVersion: 2
     m_Motion: {fileID: -203655887218126122, guid: 425d656e81d8a47cf909c429c83b1466,

@@ -7,7 +7,6 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     private Animator animator;
-    private CharacterController controller;
     [SerializeField] private float gravity = 9.8f;
     [SerializeField] private float jump = 2.0f;
     private float xInput = 0.0f;
@@ -19,7 +18,6 @@ public class PlayerController : MonoBehaviour
     private void Start()
     {
         animator = GetComponent<Animator>();
-        controller = GetComponent<CharacterController>();
     }
 
     private void Update()
