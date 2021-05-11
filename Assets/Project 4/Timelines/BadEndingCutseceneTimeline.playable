@@ -1426,7 +1426,7 @@ MonoBehaviour:
   m_Markers:
     m_Objects: []
   m_TrackProperties:
-    volume: 1
+    volume: 0.4
     stereoPan: 0
     spatialBlend: 0
 --- !u!114 &-4623595454496158879
@@ -1820,7 +1820,7 @@ MonoBehaviour:
   m_Markers:
     m_Objects: []
   m_TrackProperties:
-    volume: 1
+    volume: 0.3
     stereoPan: 0
     spatialBlend: 0
 --- !u!114 &-2997498767059601780
@@ -2336,7 +2336,7 @@ MonoBehaviour:
   m_Markers:
     m_Objects: []
   m_TrackProperties:
-    volume: 1
+    volume: 0.5
     stereoPan: 0
     spatialBlend: 0
 --- !u!114 &-1846412614740067813
@@ -3094,7 +3094,7 @@ MonoBehaviour:
   m_Markers:
     m_Objects: []
   m_TrackProperties:
-    volume: 1
+    volume: 0.5
     stereoPan: 0
     spatialBlend: 0
 --- !u!114 &658728089795149553
@@ -3679,7 +3679,7 @@ MonoBehaviour:
   m_Markers:
     m_Objects: []
   m_TrackProperties:
-    volume: 0.3
+    volume: 0.2
     stereoPan: 0
     spatialBlend: 0
 --- !u!114 &3316229411633756478
@@ -4515,7 +4515,7 @@ MonoBehaviour:
   m_Markers:
     m_Objects: []
   m_TrackProperties:
-    volume: 1
+    volume: 0.5
     stereoPan: 0
     spatialBlend: 0
 --- !u!114 &4799147776965185202
@@ -5487,7 +5487,7 @@ MonoBehaviour:
   m_Markers:
     m_Objects: []
   m_TrackProperties:
-    volume: 1
+    volume: 0.5
     stereoPan: 0
     spatialBlend: 0
 --- !u!114 &8564095587213265421

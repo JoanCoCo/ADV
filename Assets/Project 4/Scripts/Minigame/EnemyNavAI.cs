@@ -13,7 +13,6 @@ public class EnemyNavAI : MonoBehaviour
     private Animator animator;
     [SerializeField] private Transform destinationMark;
     private enum State { On, Off };
-    [SerializeField] private PlayableDirector director;
     [SerializeField] private State state = State.Off;
 
     private void Start()
@@ -41,5 +40,10 @@ public class EnemyNavAI : MonoBehaviour
             animator.SetFloat("XDir", 0);
             animator.SetFloat("YDir", 0);
         }
+    }
+
+    public void StartMiniGame()
+    {
+        state = State.On;
     }
 }

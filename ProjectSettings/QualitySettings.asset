@@ -225,5 +225,5 @@ QualitySettings:
   m_PerPlatformDefaultQuality:
     Android: 4
     Standalone: 4
-    WebGL: 4
+    WebGL: 1
     iPhone: 4

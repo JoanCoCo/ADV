@@ -10,6 +10,8 @@ public class FinalCutsceneTrigger : MonoBehaviour
     [SerializeField] private PlayableDirector badCutscene;
     [SerializeField] private PlayableDirector goodCutscene;
     private bool wasTriggered = false;
+    [SerializeField] private AudioSource negativeSound;
+    [SerializeField] private AudioSource positiveSound;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -19,14 +21,25 @@ public class FinalCutsceneTrigger : MonoBehaviour
         {
             if (other.gameObject.CompareTag(enemyTag))
             {
-                badCutscene.Play();
-                wasTriggered = true;
+                Play(negativeSound, badCutscene);
             }
             else if (other.gameObject.CompareTag(playerTag))
             {
-                goodCutscene.Play();
-                wasTriggered = true;
+                Play(positiveSound, goodCutscene);
             }
         }
     }
+
+    IEnumerator StartTrigger(AudioSource au, PlayableDirector dir) 
+    {
+        if (au != null)
+        {
+            au.Play();
+            yield return new WaitForSecondsRealtime(0.01f);
+        }
+        dir.Play();
+        wasTriggered = true;
+    }
+
+    private Coroutine Play(AudioSource au, PlayableDirector dir) => StartCoroutine(StartTrigger(au, dir));
 }

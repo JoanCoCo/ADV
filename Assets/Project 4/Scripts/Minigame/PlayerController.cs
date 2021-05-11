@@ -14,6 +14,7 @@ public class PlayerController : MonoBehaviour
     private float yInput = 0.0f;
     private enum State { On, Off };
     [SerializeField] private State state = State.Off;
+    private float currVel = 0.0f;
 
     private void Start()
     {
@@ -25,8 +26,8 @@ public class PlayerController : MonoBehaviour
     {
         if (state == State.On)
         {
-            controller.Move(Vector3.down * gravity * Time.deltaTime);
-            yInput = Input.GetAxis("Vertical");
+            //controller.Move(Vector3.down * gravity * Time.deltaTime);
+            yInput = Input.GetAxisRaw("Vertical");
             xInput = Input.GetAxis("Horizontal");
 
             if (Mathf.Approximately(yInput, 0.0f))
@@ -43,11 +44,16 @@ public class PlayerController : MonoBehaviour
                 }
             }
 
-            animator.SetFloat("YDir", yInput);
+            animator.SetFloat("YDir", Mathf.SmoothDamp(animator.GetFloat("YDir"), yInput, ref currVel, 0.3f));
         } else
         {
             animator.SetFloat("YDir", 0);
             animator.SetFloat("XDir", 0);
         }
+    }
+
+    public void StartMiniGame()
+    {
+        state = State.On;
     }
 }
