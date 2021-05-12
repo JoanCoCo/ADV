@@ -38500,6 +38500,7 @@ GameObject:
   - component: {fileID: 3954014594718195918}
   - component: {fileID: 6434079318061629571}
   - component: {fileID: 1176409146117080387}
+  - component: {fileID: 3183025602796446108}
   m_Layer: 0
   m_Name: CAR_03_1_2
   m_TagString: Untagged
@@ -38507,6 +38508,20 @@ GameObject:
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
+--- !u!64 &3183025602796446108
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3183025602796446107}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4160530280548290768, guid: eb48cfe0bb15b4881a62075f0e402c2e, type: 3}
 --- !u!4 &3183749883902416518
 Transform:
   m_ObjectHideFlags: 0
